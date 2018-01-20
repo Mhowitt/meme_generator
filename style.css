@@ -156,17 +156,18 @@ footer {
 
 
 /*large ipad to desktop/laptop */
-@media only (min-width: 1024) and (max-width: 1200px) {
 
-
-}
 
 
 /*small tablet Large Ipad */
 
 
-@media only screen and (max-width: 1023px) {
-
+@media only screen and (max-width: 1063px) {
+img,
+.meme-img,
+.red-cross,
+.text {width: 400px;}
+}
 
 }
 
@@ -175,19 +176,32 @@ footer {
 	.title {width: 85%;}
 	h1{font-size: 280%;}
 	h2 {font-size: 150%;}
+
+.footer img, 
+.meme-img img,
+.red-cross,
+.text {width: 325px;}
 }
 
 /*Small Phones */
-@media only screen and (max-width: 480px) {
-h1{font-size: 250%;}
-h2 {font-size: 110%;}
+@media only screen and (max-width: 577px) {
+h1{font-size: 270%;}
+h2 {font-size: 130%;}
 html{font-size: 90%;}
+
+.title {width: 75%;
+}
 
 img,
 .footer img, 
 .meme-img,
 .red-cross,
-.text {width: 350px;}
+.text {width: 300px;}
 
 .text {font-size: 160%;}
 }
+
+@media only screen and (max-width: 460px) {
+h1{font-size: 230%;}
+h2 {font-size: 110%;}
+	}
